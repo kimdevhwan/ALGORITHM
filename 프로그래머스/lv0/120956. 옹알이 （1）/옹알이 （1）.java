@@ -17,7 +17,6 @@ class Solution {
                 inputWord = inputWord.replace(word, "_");
                 
                 if(inputWord.replace("_","").length() < 1){
-                //if(inputWord.length() < 1) {
                     answer++;
                     break;
                 }
